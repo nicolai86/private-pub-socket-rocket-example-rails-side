@@ -11,6 +11,8 @@ gem 'private_pub', '>= 1.0.1'
 gem 'faye', '>= 0.8.0'
 gem 'faye-websocket'
 
+gem 'foreman', '>= 0.41.0'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

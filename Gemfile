@@ -10,6 +10,7 @@ gem 'sqlite3'
 gem 'private_pub', '>= 1.0.1'
 gem 'faye', '>= 0.8.0'
 gem 'faye-websocket'
+gem 'thin'
 
 gem 'foreman', '>= 0.41.0'
 

@@ -1,4 +1,7 @@
 PrivatePubSocketRocketExample::Application.routes.draw do
+  namespace :api do
+    match 'websockets/configuration' => 'websockets#configuration', via: :get
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

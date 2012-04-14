@@ -7,6 +7,9 @@ gem 'rails', '3.2.3'
 
 gem 'sqlite3'
 
+gem 'private_pub', '>= 1.0.1'
+gem 'faye', '>= 0.8.0'
+gem 'faye-websocket'
 
 # Gems used only for assets and not required
 # in production environments by default.
